@@ -2,7 +2,7 @@ pool:
   name: 'uft_agent'
 
 steps:
-- task: RunUFTTask@1
+- task: RunUFTTask1
   inputs:
     testsPath: 'C:\\uft_agent_ado\\repo\\demo'
     resultsLocation: 'C:\\uft_agent_ado\\UFTResults'
